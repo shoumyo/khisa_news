@@ -1,9 +1,10 @@
 import React from 'react';
+import SocialLogin from './SocialLogin';
 
 const RightAsset = () => {
     return (
         <div>
-            rightAside
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
