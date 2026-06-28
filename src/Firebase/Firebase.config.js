@@ -5,12 +5,12 @@ import { initializeApp } from 'firebase/app';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyBqFzLTDg72w5iBrHHJ3V-yiPPrxRbwcGA',
-  authDomain: 'khisa-news.firebaseapp.com',
-  projectId: 'khisa-news',
-  storageBucket: 'khisa-news.firebasestorage.app',
-  messagingSenderId: '14465787737',
-  appId: '1:14465787737:web:2c75442e57181967334e48',
+  apiKey:import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId:import.meta.env.VITE_projectId,
+  storageBucket:import.meta.env.VITE_storageBucket,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_app,
 };
 
 // Initialize Firebase
